@@ -19,7 +19,7 @@ Our model currently supports 13 languages: English, Spanish, Italian, French, Ge
 ## Technology
 The model uses convolutional and recurrent neural networks trained on two thousands of hours of speech data(private). Approximately 150 hours of speech supervision per language.
 
-<img width='400' height='600' src='https://github.com/SpeechFlow-io/Spoken_language_identification/blob/main/network.png'><br/>
+<img width='400' height='600' src='https://github.com/mrnxthai/nhandienngonngunoi/blob/main/network.png'><br/>
 
 ## Available models and languages
  The figure below shows a ACC (Accuracy) breakdown by languages of the [FLEURS](https://arxiv.org/pdf/2205.12446.pdf) test-set using pretrained model.</br>
@@ -62,9 +62,9 @@ python train.py
 ```
 This will train Spoken_language_identification model by data in the 'data/demo_txt/demo_train.txt', then store the model on saved_weights folder, perform inference on 'demo_txt/demo_test.txt', print the inference results, and save the averaged accuracy in a text file.
 ### **Inference**
-[![ Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16-Nre8aDvn0wN2dsgGa3xUsZ7S61e1h8#scrollTo=Is60zUMuPqSi)
+[![ Open In Colab](https://colab.research.google.com/drive/1ygEHddK5Wo4J2aV___B0h3KYDvF8vhZp?usp=sharing)
 
-The pretrained model is provided in this [project](https://github.com/SpeechFlow-io/Spoken_language_identification/tree/main/saved_weights/20230228-084356), simple run this command:
+The pretrained model is provided in this [project](https://github.com/mrnxthai/nhandienngonngunoi/tree/main/saved_weights/20230228-084356), simple run this command:
 ```
 python predict_by_pb.py test_audios/chinese.wav
 ```
